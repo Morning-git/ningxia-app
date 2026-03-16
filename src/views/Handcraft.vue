@@ -183,7 +183,7 @@ const handcrafts = ref([
     category: 'knitting',
     title: '宝宝毛线鞋',
     author: '刘大姐',
-    cover: '',
+    cover: randomImage(),
     icon: '👶',
     price: '38',
     desc: '柔软舒适的宝宝毛线鞋。',

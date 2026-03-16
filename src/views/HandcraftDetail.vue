@@ -86,14 +86,14 @@
             class="bg-white rounded-xl overflow-hidden shadow-sm cursor-pointer"
             @click="goToDetail(item.id)"
           >
-            <div class="w-full bg-gray-100 relative" style="padding-bottom: 100%;">
+            <div class="w-full h-40 bg-gray-100">
               <img 
                 v-if="item.cover"
                 :src="item.cover" 
                 :alt="item.title"
                 class="w-full h-full object-cover"
               />
-              <span v-else class="absolute inset-0 flex items-center justify-center text-2xl">{{ item.icon }}</span>
+              <span v-else class="w-full h-full flex items-center justify-center text-2xl">{{ item.icon }}</span>
             </div>
             <div class="p-2">
               <h4 class="text-xs font-semibold text-gray-800 mb-1" style="display: -webkit-box; -webkit-line-clamp: 1; -webkit-box-orient: vertical; overflow: hidden;">{{ item.title }}</h4>
@@ -197,7 +197,7 @@ const handcrafts = ref([
     title: '宝宝毛线鞋',
     author: '刘大姐',
     disability: '智力残疾4级',
-    cover: '',
+    cover: randomImage(),
     icon: '👶',
     price: '38',
     desc: '柔软舒适的宝宝毛线鞋。',
