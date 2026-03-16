@@ -511,7 +511,7 @@ const featuredVideo = {
   duration: '45:30',
   views: '1.2万',
   time: '3天前',
-  cover: 'https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?auto=format&fit=crop&w=800&q=80',
+  cover: '/img/Snipaste_2026-03-16_14-57-15.jpg',
   bgColor: 'from-primary to-primary-light'
 }
 
@@ -526,7 +526,7 @@ const videoCourses = [
     time: '1周前',
     category: 'interview',
     bgColor: 'from-green-400 to-green-600',
-    cover: 'https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=400&q=80'
+    cover: '/img/Snipaste_2026-03-16_14-57-15.jpg'
   },
   {
     id: 2,
@@ -537,7 +537,7 @@ const videoCourses = [
     time: '2周前',
     category: 'skill',
     bgColor: 'from-green-400 to-green-500',
-    cover: 'https://images.unsplash.com/photo-1533197265010-48746a9e493c?auto=format&fit=crop&w=400&q=80'
+    cover: '/img/Snipaste_2026-03-16_14-57-15.jpg'
   },
   {
     id: 3,
@@ -548,7 +548,7 @@ const videoCourses = [
     time: '3周前',
     category: 'career',
     bgColor: 'from-purple-400 to-purple-600',
-    cover: 'https://images.unsplash.com/photo-1518684079-3c830dcef090?auto=format&fit=crop&w=400&q=80'
+    cover: '/img/Snipaste_2026-03-16_14-57-15.jpg'
   },
   {
     id: 4,
@@ -559,7 +559,7 @@ const videoCourses = [
     time: '1个月前',
     category: 'psychology',
     bgColor: 'from-pink-400 to-pink-600',
-    cover: 'https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?auto=format&fit=crop&w=400&q=80'
+    cover: '/img/Snipaste_2026-03-16_14-57-15.jpg'
   },
   {
     id: 5,
@@ -570,7 +570,7 @@ const videoCourses = [
     time: '1个月前',
     category: 'interview',
     bgColor: 'from-green-400 to-green-600',
-    cover: 'https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=400&q=80'
+    cover: '/img/Snipaste_2026-03-16_14-57-15.jpg'
   },
   {
     id: 6,
@@ -581,7 +581,7 @@ const videoCourses = [
     time: '2个月前',
     category: 'skill',
     bgColor: 'from-orange-400 to-orange-600',
-    cover: 'https://images.unsplash.com/photo-1533197265010-48746a9e493c?auto=format&fit=crop&w=400&q=80'
+    cover: '/img/Snipaste_2026-03-16_14-57-15.jpg'
   }
 ]
 
@@ -596,13 +596,13 @@ const articleCourses = [
     views: 5678,
     comments: 128,
     time: '2天前',
-    cover: 'https://images.unsplash.com/photo-1518684079-3c830dcef090?auto=format&fit=crop&w=400&q=80',
-    images: ['https://images.unsplash.com/photo-1533197265010-48746a9e493c?auto=format&fit=crop&w=200&q=80', 'https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?auto=format&fit=crop&w=200&q=80'],
+    cover: '/img/Snipaste_2026-03-16_14-57-15.jpg',
+    images: ['/img/Snipaste_2026-03-16_14-57-15.jpg', '/img/Snipaste_2026-03-16_14-57-15.jpg'],
     content: [
       { type: 'text', content: '简历是求职的敲门砖，对于残疾人求职者来说，如何在简历中恰当表达自己的情况，同时突出个人优势，是一门学问。' },
       { type: 'heading', content: '一、简历的基本结构' },
       { type: 'text', content: '一份完整的简历应包含个人信息、求职意向、教育背景、工作经历、技能特长、自我评价等部分。' },
-      { type: 'image', url: 'https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=400&q=80', caption: '简历结构示例' },
+      { type: 'image', url: '/img/Snipaste_2026-03-16_14-57-15.jpg', caption: '简历结构示例' },
       { type: 'heading', content: '二、如何描述残疾情况' },
       { type: 'list', items: ['残疾情况不是必须写在简历中的内容', '如果残疾与岗位要求无关，可以选择在面试时说明', '如需要特殊工作环境，可在自我评价中简要提及'] },
       { type: 'tip', content: '提示：保持自信，残疾不影响你的工作能力！' }
@@ -617,8 +617,8 @@ const articleCourses = [
     views: 4321,
     comments: 89,
     time: '5天前',
-    cover: 'https://images.unsplash.com/photo-1533197265010-48746a9e493c?auto=format&fit=crop&w=400&q=80',
-    images: ['https://images.unsplash.com/photo-1518684079-3c830dcef090?auto=format&fit=crop&w=200&q=80'],
+    cover: '/img/Snipaste_2026-03-16_14-57-15.jpg',
+    images: ['/img/Snipaste_2026-03-16_14-57-15.jpg'],
     content: [
       { type: 'text', content: '第一印象往往在7秒内形成，而良好的职场礼仪是建立正面形象的关键。' },
       { type: 'heading', content: '一、着装礼仪' },
@@ -636,7 +636,7 @@ const articleCourses = [
     views: 3890,
     comments: 156,
     time: '1周前',
-    cover: 'https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?auto=format&fit=crop&w=400&q=80',
+    cover: '/img/Snipaste_2026-03-16_14-57-15.jpg',
     content: [
       { type: 'text', content: '薪资谈判需要技巧和勇气，合理的薪资期望既体现了你对自己价值的认可，也展示了对市场的了解。' },
       { type: 'heading', content: '谈判前的准备' },
@@ -652,8 +652,8 @@ const articleCourses = [
     views: 6234,
     comments: 234,
     time: '2周前',
-    cover: 'https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=400&q=80',
-    images: ['https://images.unsplash.com/photo-1533197265010-48746a9e493c?auto=format&fit=crop&w=200&q=80', 'https://images.unsplash.com/photo-1518684079-3c830dcef090?auto=format&fit=crop&w=200&q=80', 'https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?auto=format&fit=crop&w=200&q=80'],
+    cover: '/img/Snipaste_2026-03-16_14-57-15.jpg',
+    images: ['/img/Snipaste_2026-03-16_14-57-15.jpg', '/img/Snipaste_2026-03-16_14-57-15.jpg', '/img/Snipaste_2026-03-16_14-57-15.jpg'],
     content: [
       { type: 'text', content: '残疾人在就业过程中享有平等就业的权利，了解相关法律法规是保护自身权益的基础。' },
       { type: 'heading', content: '一、《残疾人保障法》相关规定' },
@@ -670,7 +670,7 @@ const articleCourses = [
     views: 2156,
     comments: 67,
     time: '3周前',
-    cover: 'https://images.unsplash.com/photo-1533197265010-48746a9e493c?auto=format&fit=crop&w=400&q=80',
+    cover: '/img/Snipaste_2026-03-16_14-57-15.jpg',
     content: [
       { type: 'text', content: '肢体残疾不应成为求职的障碍，一份优秀的简历能帮你打开职场大门。' },
       { type: 'heading', content: '重点突出能力' },
@@ -686,7 +686,7 @@ const articleCourses = [
     views: 3456,
     comments: 98,
     time: '1个月前',
-    cover: 'https://images.unsplash.com/photo-1518684079-3c830dcef090?auto=format&fit=crop&w=400&q=80',
+    cover: '/img/Snipaste_2026-03-16_14-57-15.jpg',
     content: [
       { type: 'text', content: '职场不是单打独斗的地方，学会与同事良好沟通，能让你的工作事半功倍。' },
       { type: 'heading', content: '主动沟通的重要性' },

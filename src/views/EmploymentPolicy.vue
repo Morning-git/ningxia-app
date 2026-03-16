@@ -98,15 +98,16 @@
 <script setup>
 import { ref, computed, onMounted, onUnmounted } from 'vue'
 import { useRouter } from 'vue-router'
+import { randomImage } from '../utils/randomImage'
 
 const router = useRouter()
 
 const activeTab = ref('news')
 
 const banners = ref([
-  { image: 'https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?auto=format&fit=crop&w=1200&q=80', title: '残疾人就业援助月' },
-  { image: 'https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=1200&q=80', title: '春季专场招聘会' },
-  { image: 'https://images.unsplash.com/photo-1533197265010-48746a9e493c?auto=format&fit=crop&w=1200&q=80', title: '创业扶持政策' }
+  { image: randomImage(), title: '残疾人就业援助月' },
+  { image: randomImage(), title: '春季专场招聘会' },
+  { image: randomImage(), title: '创业扶持政策' }
 ])
 
 const currentBanner = ref(0)
@@ -135,7 +136,7 @@ const policyList = ref([
     type: 'news',
     title: '宁夏残疾人就业工作取得新成效',
     summary: '今年第一季度，我区新增残疾人就业人数达到328人，同比增长15%。',
-    cover: 'https://images.unsplash.com/photo-1518684079-3c830dcef090?auto=format&fit=crop&w=800&q=80',
+    cover: randomImage(),
     source: '宁夏日报',
     time: '2024-03-15'
   },
@@ -144,7 +145,7 @@ const policyList = ref([
     type: 'news',
     title: '残联举办春季专场招聘会',
     summary: '宁夏残联联合多家企业举办春季专场招聘会，提供岗位500余个。',
-    cover: 'https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?auto=format&fit=crop&w=800&q=80',
+    cover: randomImage(),
     source: '宁夏新闻网',
     time: '2024-03-10'
   },
@@ -162,7 +163,7 @@ const policyList = ref([
     type: 'news',
     title: '我区首家残疾人就业实训基地挂牌',
     summary: '宁夏首家残疾人就业实训基地在银川正式挂牌成立。',
-    cover: 'https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=800&q=80',
+    cover: randomImage(),
     source: '宁夏日报',
     time: '2024-02-28'
   },
@@ -181,7 +182,7 @@ const policyList = ref([
     type: 'notice',
     title: '2024年残疾人职业技能培训计划',
     summary: '现发布2024年度残疾人职业技能培训计划，共计20个培训项目。',
-    cover: 'https://images.unsplash.com/photo-1533197265010-48746a9e493c?auto=format&fit=crop&w=800&q=80',
+    cover: randomImage(),
     source: '宁夏人社局',
     time: '2024-03-08'
   },
@@ -200,7 +201,7 @@ const policyList = ref([
     type: 'policy',
     title: '《宁夏回族自治区残疾人就业保障条例》修订发布',
     summary: '新版条例进一步完善了残疾人就业保障措施。',
-    cover: 'https://images.unsplash.com/photo-1518684079-3c830dcef090?auto=format&fit=crop&w=800&q=80',
+    cover: randomImage(),
     source: '自治区政府',
     time: '2024-03-01'
   },
@@ -209,7 +210,7 @@ const policyList = ref([
     type: 'policy',
     title: '残疾人创业扶持政策再升级',
     summary: '残疾人创业补贴标准提高，最高可达15万元。',
-    cover: 'https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?auto=format&fit=crop&w=800&q=80',
+    cover: randomImage(),
     source: '宁夏人社局',
     time: '2024-02-15'
   },

@@ -136,6 +136,7 @@
 <script setup>
 import { ref, computed, onMounted, onUnmounted } from 'vue'
 import { useRouter } from 'vue-router'
+import { randomImage } from '../utils/randomImage'
 
 const router = useRouter()
 
@@ -149,9 +150,9 @@ const tabs = [
 ]
 
 const banners = ref([
-  { image: 'https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?auto=format&fit=crop&w=1200&q=80', title: '就业典型' },
-  { image: 'https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=1200&q=80', title: '创业之星' },
-  { image: 'https://images.unsplash.com/photo-1518684079-3c830dcef090?auto=format&fit=crop&w=1200&q=80', title: '就业标兵' }
+  { image: randomImage(), title: '就业典型' },
+  { image: randomImage(), title: '创业之星' },
+  { image: randomImage(), title: '就业标兵' }
 ])
 
 const currentBanner = ref(0)
@@ -175,7 +176,7 @@ const cases = ref([
     name: '张明（化名）',
     disability: '肢体残疾',
     job: '软件测试工程师',
-    cover: 'https://images.unsplash.com/photo-1518684079-3c830dcef090?auto=format&fit=crop&w=400&q=80',
+    cover: randomImage(),
     summary: '因车祸导致下肢残疾的张明，一度对未来感到迷茫。在残联的帮助下，他参加了免费的软件测试培训，经过半年的努力学习，成功转型为一名软件测试工程师。',
     date: '2024-01-15',
     readCount: 256
@@ -187,7 +188,7 @@ const cases = ref([
     name: '李华（化名）',
     disability: '听力残疾',
     job: '手工艺品工作室创始人',
-    cover: 'https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?auto=format&fit=crop&w=400&q=80',
+    cover: randomImage(),
     summary: '先天性听力残疾的李华，从小就喜欢手工编织。在残联的支持下，她创办了自己的手工艺品工作室，不仅实现了就业，还带动了其他10名残疾人就业。',
     date: '2024-01-12',
     readCount: 189
@@ -199,7 +200,7 @@ const cases = ref([
     name: '王芳（化名）',
     disability: '视力残疾',
     job: '高级按摩师',
-    cover: 'https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=400&q=80',
+    cover: randomImage(),
     summary: '视力残疾的王芳，通过努力考取了高级按摩师资格证书。她在一家中医养生馆工作，凭借精湛的技艺赢得了客户的广泛好评。',
     date: '2024-01-10',
     readCount: 312
@@ -211,7 +212,7 @@ const cases = ref([
     name: '赵强（化名）',
     disability: '智力残疾',
     job: '超市理货员',
-    cover: 'https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?auto=format&fit=crop&w=400&q=80',
+    cover: randomImage(),
     summary: '轻度智力残疾的赵强，在残联的职业指导下，成为了一名超市理货员。他认真负责的工作态度得到了公司的认可。',
     date: '2024-01-08',
     readCount: 145
@@ -223,7 +224,7 @@ const cases = ref([
     name: '陈磊（化名）',
     disability: '肢体残疾',
     job: '数据分析师',
-    cover: 'https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=400&q=80',
+    cover: randomImage(),
     summary: '双手残疾的陈磊，凭借顽强的毅力学会了用脚操作电脑，成为了一名优秀的数据分析师。',
     date: '2024-01-05',
     readCount: 428

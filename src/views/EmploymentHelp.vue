@@ -181,6 +181,7 @@
 
 <script setup>
 import { ref, onMounted, onUnmounted } from 'vue'
+import { randomImage } from '../utils/randomImage'
 
 const currentBanner = ref(0)
 let bannerTimer = null
@@ -196,9 +197,9 @@ onUnmounted(() => {
 })
 
 const banners = ref([
-  { image: 'https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?auto=format&fit=crop&w=1200&q=80', title: '就业帮扶' },
-  { image: 'https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=1200&q=80', title: '一对一帮扶' },
-  { image: 'https://images.unsplash.com/photo-1533197265010-48746a9e493c?auto=format&fit=crop&w=1200&q=80', title: '政策扶持' }
+  { image: randomImage(), title: '就业帮扶' },
+  { image: randomImage(), title: '一对一帮扶' },
+  { image: randomImage(), title: '政策扶持' }
 ])
 
 const form = ref({

@@ -457,7 +457,7 @@ const jobFairJobs = computed(() => [
   {
     id: 1,
     title: '2024年春季残疾人专场招聘会',
-    cover: 'https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?auto=format&fit=crop&w=1200&q=80',
+    cover: '/img/Snipaste_2026-03-16_14-57-15.jpg',
     startTime: '2024年3月20日 9:00',
     status: 'ongoing',
     joinedCount: 328
@@ -465,7 +465,7 @@ const jobFairJobs = computed(() => [
   {
     id: 2,
     title: '宁夏残疾人就业援助月专场',
-    cover: 'https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=1200&q=80',
+    cover: '/img/Snipaste_2026-03-16_14-57-15.jpg',
     startTime: '2024年3月25日 10:00',
     status: 'upcoming',
     joinedCount: 156
