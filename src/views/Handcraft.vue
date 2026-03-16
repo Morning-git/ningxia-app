@@ -103,9 +103,9 @@ onUnmounted(() => {
 })
 
 const banners = ref([
-  { image: 'https://picsum.photos/800/343?random=40', title: '不尤手作' },
-  { image: 'https://picsum.photos/800/343?random=41', title: '手工编织' },
-  { image: 'https://picsum.photos/800/343?random=42', title: '残疾人手工艺' }
+  { image: 'https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?auto=format&fit=crop&w=1200&q=80', title: '不尤手作' },
+  { image: 'https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=1200&q=80', title: '手工编织' },
+  { image: 'https://images.unsplash.com/photo-1533197265010-48746a9e493c?auto=format&fit=crop&w=1200&q=80', title: '残疾人手工艺' }
 ])
 
 const tabs = [
@@ -122,7 +122,7 @@ const handcrafts = ref([
     category: 'weaving',
     title: '羊毛编织围巾',
     author: '李阿姨',
-    cover: 'https://picsum.photos/400/400?random=50',
+    cover: 'https://images.unsplash.com/photo-1518684079-3c830dcef090?auto=format&fit=crop&w=800&q=80',
     icon: '🧶',
     price: '89',
     desc: '纯羊毛手工编织围巾，保暖舒适，多色可选。',
@@ -134,7 +134,7 @@ const handcrafts = ref([
     category: 'embroidery',
     title: '山水画十字绣',
     author: '王大姐',
-    cover: 'https://picsum.photos/400/400?random=51',
+    cover: 'https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?auto=format&fit=crop&w=800&q=80',
     icon: '🎨',
     price: '156',
     desc: '手工十字绣山水画，客厅装饰佳品。',
@@ -146,7 +146,7 @@ const handcrafts = ref([
     category: 'knitting',
     title: '手工毛线包',
     author: '张师傅',
-    cover: 'https://picsum.photos/400/400?random=52',
+    cover: 'https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=800&q=80',
     icon: '👜',
     price: '128',
     desc: '时尚手工毛线包，简约大方。',
@@ -158,7 +158,7 @@ const handcrafts = ref([
     category: 'weaving',
     title: '丝网花束',
     author: '赵女士',
-    cover: 'https://picsum.photos/400/400?random=53',
+    cover: 'https://images.unsplash.com/photo-1533197265010-48746a9e493c?auto=format&fit=crop&w=800&q=80',
     icon: '🌸',
     price: '68',
     desc: '精美丝网花束，永恒的美丽。',
@@ -170,7 +170,7 @@ const handcrafts = ref([
     category: 'embroidery',
     title: '福字刺绣挂件',
     author: '陈大叔',
-    cover: 'https://picsum.photos/400/400?random=54',
+    cover: 'https://images.unsplash.com/photo-1518684079-3c830dcef090?auto=format&fit=crop&w=800&q=80',
     icon: '🧵',
     price: '45',
     desc: '福字刺绣挂件，新年装饰首选。',
@@ -194,7 +194,7 @@ const handcrafts = ref([
     category: 'other',
     title: '串珠纸巾盒',
     author: '杨师傅',
-    cover: 'https://picsum.photos/400/400?random=55',
+    cover: 'https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?auto=format&fit=crop&w=800&q=80',
     icon: '📦',
     price: '58',
     desc: '精美串珠纸巾盒，实用美观。',
@@ -206,7 +206,7 @@ const handcrafts = ref([
     category: 'weaving',
     title: '披肩式围巾',
     author: '周阿姨',
-    cover: 'https://picsum.photos/400/400?random=56',
+    cover: 'https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=800&q=80',
     icon: '🧣',
     price: '168',
     desc: '宽大披肩式围巾，优雅大方。',

@@ -72,7 +72,7 @@ const jobFairs = ref([
   {
     id: 1,
     title: '2024年春季残疾人专场招聘会',
-    cover: 'https://picsum.photos/800/343?random=1',
+    cover: 'https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?auto=format&fit=crop&w=1200&q=80',
     startTime: '2024年3月20日 9:00',
     duration: '8小时',
     status: 'ongoing',
@@ -81,7 +81,7 @@ const jobFairs = ref([
   {
     id: 2,
     title: '宁夏残疾人就业援助月专场',
-    cover: 'https://picsum.photos/800/343?random=2',
+    cover: 'https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=1200&q=80',
     startTime: '2024年3月25日 10:00',
     duration: '6小时',
     status: 'upcoming',
@@ -90,7 +90,7 @@ const jobFairs = ref([
   {
     id: 3,
     title: '数字经济专场网络招聘会',
-    cover: 'https://picsum.photos/800/343?random=3',
+    cover: 'https://images.unsplash.com/photo-1533197265010-48746a9e493c?auto=format&fit=crop&w=1200&q=80',
     startTime: '2024年4月1日 9:00',
     duration: '全天',
     status: 'upcoming',
@@ -99,7 +99,7 @@ const jobFairs = ref([
   {
     id: 4,
     title: '2024届残疾毕业生专场',
-    cover: 'https://picsum.photos/800/343?random=4',
+    cover: 'httpsum.photos/id/504/800/343',
     startTime: '2024年2月15日 9:00',
     duration: '8小时',
     status: 'ended',
@@ -108,7 +108,7 @@ const jobFairs = ref([
   {
     id: 5,
     title: '手工艺制作专场招聘会',
-    cover: 'https://picsum.photos/800/343?random=5',
+    cover: 'https://images.unsplash.com/photo-1518684079-3c830dcef090?auto=format&fit=crop&w=1200&q=80',
     startTime: '2024年4月10日 14:00',
     duration: '4小时',
     status: 'upcoming',

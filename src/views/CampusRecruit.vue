@@ -3,12 +3,12 @@
     <!-- 标题栏 -->
     <div class="flex items-center gap-3 px-4 py-3 bg-white border-b border-gray-100 sticky top-0 z-10">
       <span class="text-2xl text-gray-800 cursor-pointer" @click="$router.back()">&#8249;</span>
-      <h3 class="text-base font-semibold text-gray-800">校园招聘</h3>
+      <h3 class="text-base font-semibold text-gray-800">大学生就业</h3>
     </div>
 
     <!-- 顶部Banner -->
     <div class="bg-gradient-to-r from-blue-500 to-blue-600 p-5">
-      <h2 class="text-white text-lg font-semibold mb-2">校园招聘  职引未来</h2>
+      <h2 class="text-white text-lg font-semibold mb-2">大学生就业  职引未来</h2>
       <p class="text-white/80 text-sm mb-4">知名企业进校园，优质岗位等你来</p>
       <div class="flex gap-3">
         <div class="flex-1 bg-white/20 rounded-lg p-2 text-center">

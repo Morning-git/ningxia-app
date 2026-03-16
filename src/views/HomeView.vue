@@ -37,7 +37,7 @@
             <svg v-if="entry.name === '灵活就业'" class="w-6 h-6 text-green-500" viewBox="0 0 24 24" fill="currentColor">
               <path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67z"/>
             </svg>
-            <svg v-else-if="entry.name === '校园招聘'" class="w-6 h-6 text-blue-500" viewBox="0 0 24 24" fill="currentColor">
+            <svg v-else-if="entry.name === '大学生就业'" class="w-6 h-6 text-blue-500" viewBox="0 0 24 24" fill="currentColor">
               <path d="M5 13.18v4L12 21l7-3.82v-4L12 17l-7-3.82zM12 3L1 9l11 6 9-4.91V17h2V9L12 3z"/>
             </svg>
             <svg v-else-if="entry.name === '网络招聘会'" class="w-6 h-6 text-orange-500" viewBox="0 0 24 24" fill="currentColor">
@@ -457,7 +457,7 @@ const jobFairJobs = computed(() => [
   {
     id: 1,
     title: '2024年春季残疾人专场招聘会',
-    cover: 'https://picsum.photos/800/343?random=1',
+    cover: 'https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?auto=format&fit=crop&w=1200&q=80',
     startTime: '2024年3月20日 9:00',
     status: 'ongoing',
     joinedCount: 328
@@ -465,7 +465,7 @@ const jobFairJobs = computed(() => [
   {
     id: 2,
     title: '宁夏残疾人就业援助月专场',
-    cover: 'https://picsum.photos/800/343?random=2',
+    cover: 'https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=1200&q=80',
     startTime: '2024年3月25日 10:00',
     status: 'upcoming',
     joinedCount: 156
@@ -524,7 +524,7 @@ function handleQuickEntry(name) {
     case '灵活就业':
       router.push('/flex-job')
       break
-    case '校园招聘':
+    case '大学生就业':
       router.push('/campus-recruit')
       break
     case '网络招聘会':
