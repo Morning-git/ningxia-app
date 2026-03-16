@@ -125,6 +125,7 @@ import { ref, computed } from 'vue'
 import { useRouter, useRoute } from 'vue-router'
 import { useUserStore } from '../store'
 import { jobsData, jobToChatMap } from '../data/mock'
+import { randomImage } from '../utils/randomImage'
 
 const router = useRouter()
 const route = useRoute()
@@ -134,7 +135,7 @@ const jobFairs = ref([
   {
     id: 1,
     title: '2024年春季残疾人专场招聘会',
-    cover: '/img/Snipaste_2026-03-16_14-57-15.jpg',
+    cover: randomImage(),
     startTime: '2024年3月20日 9:00',
     duration: '8小时',
     status: 'ongoing',
@@ -143,7 +144,7 @@ const jobFairs = ref([
   {
     id: 2,
     title: '宁夏残疾人就业援助月专场',
-    cover: '/img/Snipaste_2026-03-16_14-57-15.jpg',
+    cover: randomImage(),
     startTime: '2024年3月25日 10:00',
     duration: '6小时',
     status: 'upcoming',
@@ -152,7 +153,7 @@ const jobFairs = ref([
   {
     id: 3,
     title: '数字经济专场网络招聘会',
-    cover: '/img/Snipaste_2026-03-16_14-57-15.jpg',
+    cover: randomImage(),
     startTime: '2024年4月1日 9:00',
     duration: '全天',
     status: 'upcoming',
@@ -161,7 +162,7 @@ const jobFairs = ref([
   {
     id: 4,
     title: '2024届残疾毕业生专场',
-    cover: '/img/Snipaste_2026-03-16_14-57-15.jpg',
+    cover: randomImage(),
     startTime: '2024年2月15日 9:00',
     duration: '8小时',
     status: 'ended',
@@ -170,7 +171,7 @@ const jobFairs = ref([
   {
     id: 5,
     title: '手工艺制作专场招聘会',
-    cover: '/img/Snipaste_2026-03-16_14-57-15.jpg',
+    cover: randomImage(),
     startTime: '2024年4月10日 14:00',
     duration: '4小时',
     status: 'upcoming',

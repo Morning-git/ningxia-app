@@ -428,6 +428,7 @@ import { useRouter } from 'vue-router'
 import { jobsData, newsData, bannerData, quickEntries, trainingData } from '../data/mock'
 import { useUserStore } from '../store'
 import JobCard from '../components/common/JobCard.vue'
+import { randomImage } from '../utils/randomImage'
 
 const router = useRouter()
 const userStore = useUserStore()
@@ -457,7 +458,7 @@ const jobFairJobs = computed(() => [
   {
     id: 1,
     title: '2024年春季残疾人专场招聘会',
-    cover: '/img/Snipaste_2026-03-16_14-57-15.jpg',
+    cover: randomImage(),
     startTime: '2024年3月20日 9:00',
     status: 'ongoing',
     joinedCount: 328
@@ -465,7 +466,7 @@ const jobFairJobs = computed(() => [
   {
     id: 2,
     title: '宁夏残疾人就业援助月专场',
-    cover: '/img/Snipaste_2026-03-16_14-57-15.jpg',
+    cover: randomImage(),
     startTime: '2024年3月25日 10:00',
     status: 'upcoming',
     joinedCount: 156
