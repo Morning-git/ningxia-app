@@ -1,0 +1,10 @@
+{
+  "name": "宁夏残疾人就业",
+  "short_name": "宁夏就业",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "icons": []
+}
+

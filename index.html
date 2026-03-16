@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+  <title>宁夏残疾人就业</title>
+  
+  <!-- PWA 配置：主题色 + Manifest -->
+  <meta name="theme-color" content="#ffffff">
+  <link rel="manifest" href="/manifest.webmanifest">
+  
+  <!-- iOS PWA元数据标签 -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="宁夏残疾人就业">
+  <meta name="format-detection" content="telephone=no">
+  
+  <!-- iOS图标 -->
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  
+  <style>
+    /* iOS安全区域变量 */
+    :root {
+      --sat: env(safe-area-inset-top);
+      --sab: env(safe-area-inset-bottom);
+      --sal: env(safe-area-inset-left);
+      --sar: env(safe-area-inset-right);
+    }
+    
+    /* 基础样式 */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      -webkit-tap-highlight-color: transparent;
+    }
+    
+    html, body {
+      height: 100%;
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "SF Pro Display", "Helvetica Neue", Arial, sans-serif;
+      font-size: 17px;
+      color: #000;
+      background: #F2F2F7;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+    
+    #app {
+      height: 100%;
+      max-width: 100%;
+      margin: 0 auto;
+      background: #F2F2F7;
+      position: relative;
+      overflow: hidden;
+    }
+    
+    /* 隐藏滚动条但允许滚动 */
+    ::-webkit-scrollbar {
+      display: none;
+      width: 0;
+      height: 0;
+    }
+    
+    * {
+      scrollbar-width: none;
+      -ms-overflow-style: none;
+    }
+    
+    /* iOS底部安全区域指示器空间 */
+    .ios-bottom-indicator {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: env(safe-area-inset-bottom);
+      background: transparent;
+      z-index: 9999;
+    }
+  </style>
+</head>
+<body>
+  <div id="app"></div>
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
